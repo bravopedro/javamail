@@ -44,7 +44,7 @@ import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
-import java.lang.annotation.Repeatable;
+//import java.lang.annotation.Repeatable;
 
 /**
  * Annotation used by Java EE applications to define a <code>MailSession</code>
@@ -62,7 +62,7 @@ import java.lang.annotation.Repeatable;
  */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-@Repeatable(MailSessionDefinitions.class)
+//@Repeatable(MailSessionDefinitions.class)
 public @interface MailSessionDefinition {
 
     /**
